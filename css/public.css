@@ -59,51 +59,60 @@ input, button, textarea, select, optgroup, option {
   height: 162px;
   position: absolute;
 }
-#headerCon .header {
+#headerCon .tp {
+  width: 100%;
+  height: 30px;
+  background: #f2f2f2;
+}
+#headerCon .tp .header {
   width: 1000px;
   height: 120px;
-  background: pink;
   margin: 0 auto;
   position: relative;
   overflow: visible;
 }
-#headerCon .header .headerTop {
+#headerCon .tp .header .headerTop {
   width: 1000px;
   height: 30px;
   position: relative;
-  background: #ccc;
 }
-#headerCon .header .headerTop .headerLeft {
+#headerCon .tp .header .headerTop .headerLeft {
   height: 30px;
   line-height: 30px;
   float: left;
 }
-#headerCon .header .headerTop .headerLeft .theLi {
+#headerCon .tp .header .headerTop .headerLeft .theLi {
   float: left;
   height: 30px;
   padding: 0 6px 0 0;
 }
-#headerCon .header .headerTop .headerLeft .theLi img {
+#headerCon .tp .header .headerTop .headerLeft .theLi a {
+  color: #000;
+}
+#headerCon .tp .header .headerTop .headerLeft .theLi img {
   width: 20px;
   height: 20px;
   margin: 3px 0 4px 0;
   padding: 0 2px 0 0;
   float: left;
 }
-#headerCon .header .headerTop .headerRight {
+#headerCon .tp .header .headerTop .headerRight {
   height: 30px;
   line-height: 30px;
   float: right;
   padding: 0 80px 0 0;
   position: relative;
 }
-#headerCon .header .headerTop .headerRight li {
+#headerCon .tp .header .headerTop .headerRight li {
   float: left;
   height: 30px;
   line-height: 30px;
   padding: 0 0 0 20px;
 }
-#headerCon .header .headerTop .headerRight li .bg {
+#headerCon .tp .header .headerTop .headerRight li a {
+  color: #000;
+}
+#headerCon .tp .header .headerTop .headerRight li .bg {
   background: url(../img/base_z.png) -604px -329px no-repeat;
   display: block;
   width: 20px;
@@ -117,11 +126,87 @@ input, button, textarea, select, optgroup, option {
   float: left;
   background-repeat: no-repeat;
 }
-#headerCon .header .logo {
+#headerCon .tp .header .logo {
   width: 1000px;
   height: 90px;
   overflow: hidden;
+}
+#headerCon .tp .header .logo .logoA {
   background: url(../img/base_z.png) -853px -295px no-repeat;
+  display: block;
+  width: 205px;
+  height: 90px;
+  text-indent: -9999px;
+  float: left;
+}
+#headerCon .tp .header .logo .logoB {
+  background: url(../img/base_z.png) -889px -74px no-repeat;
+  display: block;
+  width: 151px;
+  height: 90px;
+  text-indent: -9999px;
+  float: left;
+}
+#headerCon .headerNav {
+  width: 100%;
+  height: 42px;
+  background: #000;
+  position: relative;
+  top: 90px;
+  left: 0;
+}
+#headerCon .headerNav .nav {
+  width: 1000px;
+  height: 42px;
+  margin: 0 auto;
+}
+#headerCon .headerNav .nav .navL {
+  height: 42px;
+  float: left;
+}
+#headerCon .headerNav .nav .navL .navLi {
+  height: 42px;
+  margin-right: 50px;
+  float: left;
+}
+#headerCon .headerNav .nav .navL .navLi a {
+  display: block;
+  width: auto;
+  height: 42px;
+  line-height: 42px;
+  float: left;
+  font-size: 14px;
+  color: #fff;
+}
+#headerCon .headerNav .nav .navR {
+  width: 111px;
+  height: 42px;
+  float: right;
+}
+#headerCon .headerNav .nav .navR .navG {
+  font-size: 12px;
+  width: 23px;
+  text-align: center;
+  line-height: 42px;
+  color: #a8a8a8;
+  background: url(../img/base_z.png) -1017px -219px no-repeat;
+  float: left;
+}
+#headerCon .headerNav .nav .navR .navF {
+  float: left;
+  margin-left: 15px;
+  font-size: 14px;
+  height: 42px;
+  line-height: 42px;
+  color: #fff;
+}
+#headerCon .headerNav .nav .navR .navJ {
+  float: left;
+  margin-left: 15px;
+  font-size: 14px;
+  height: 42px;
+  line-height: 42px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=public.css.map */

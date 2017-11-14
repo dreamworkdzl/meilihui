@@ -4,6 +4,7 @@ html,body{
     font-size: 12px;
     color: #444444;
     width: 100%;
+    
 }
 ul,ol,li{list-style:none;}
 a,u{text-decoration:none;}
@@ -19,75 +20,163 @@ input, button, textarea, select, optgroup, option {
 }
 .clearfix:after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility: hidden;}
 /* 头部  */
+
 #headerCon{
     width: 100%;
     height: 162px;
     position: absolute;
-    .header{
-        width: 1000px;
-        height: 120px;
-        background: pink;
-        margin: 0 auto;
-        position: relative;
-        overflow: visible;
-        .headerTop{
-            width:1000px;
-            height: 30px;
+    .tp{
+        width:100%;
+        height:30px;
+        background: #f2f2f2;
+    
+        .header{
+            width: 1000px;
+            height: 120px;
+            margin: 0 auto;
             position: relative;
-            background: #ccc;
-            .headerLeft{
+            overflow: visible;
+           
+            .headerTop{
+                width:1000px;
                 height: 30px;
-                line-height: 30px;
-                float: left;
-                .theLi{
-                    float:left;
+                position: relative;
+                .headerLeft{
                     height: 30px;
-                    padding:0 6px 0 0;
-                    img{
-                        width: 20px;
-                        height: 20px;
-                        margin:3px 0 4px 0;
-                        padding: 0 2px 0 0;
+                    line-height: 30px;
+                    float: left;
+                    
+                    .theLi{
+                        float:left;
+                        height: 30px;
+                        padding:0 6px 0 0;
+                        a{
+                            color:#000;
+                        }
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            margin:3px 0 4px 0;
+                            padding: 0 2px 0 0;
+                            float: left;
+                        }
+                    }
+                }
+                .headerRight{
+                    height: 30px;
+                    line-height:30px;
+                    float:right;
+                    padding: 0 80px 0 0;
+                    position: relative;
+                    li{
                         float: left;
+                        height: 30px;
+                        line-height: 30px;
+                        padding: 0 0 0 20px;
+                        a{
+                            color:#000;
+                        }
+                        .bg{
+                            background:url(../img/base_z.png) -604px -329px no-repeat;
+                            display: block;
+                            width: 20px;
+                            height: 17px;
+                            position: relative;
+                            top: 6px;
+                            right: 10px;
+                            white-space: nowrap;
+                            text-indent: -9999px;
+                            overflow: hidden;
+                            float: left;
+                            background-repeat: no-repeat;
+                        }
                     }
                 }
             }
-            .headerRight{
-                height: 30px;
-                line-height:30px;
-                float:right;
-                padding: 0 80px 0 0;
-                position: relative;
-                li{
+            .logo{
+                width:1000px;
+                height:90px;
+                overflow: hidden;
+                .logoA{
+                    background: url(../img/base_z.png) -853px -295px no-repeat;
+                    display: block;
+                    width:205px ;
+                    height: 90px;
+                    text-indent: -9999px;
+                    float:left;
+                }
+                .logoB{
+                    background: url(../img/base_z.png) -889px -74px no-repeat;
+                    display: block;
+                    width: 151px;
+                    height: 90px;
+                    text-indent: -9999px;
                     float: left;
-                    height: 30px;
-                    line-height: 30px;
-                    padding: 0 0 0 20px;
-                    .bg{
-                        background:url(../img/base_z.png) -604px -329px no-repeat;
-                        display: block;
-                        width: 20px;
-                        height: 17px;
-                        position: relative;
-                        top: 6px;
-                        right: 10px;
-                        white-space: nowrap;
-                        text-indent: -9999px;
-                        overflow: hidden;
-                        float: left;
-                        background-repeat: no-repeat;
-                    }
                 }
             }
         }
-        .logo{
-            width:1000px;
-            height:90px;
-            overflow: hidden;
-            background: url(../img/base_z.png) -853px -295px no-repeat;
-            .logoA{
-                
+    }
+    .headerNav{
+        width: 100%;
+        height: 42px;
+        background: #000;
+        position: relative;
+        top: 90px;
+        left: 0;
+        .nav{
+            width: 1000px;
+            height: 42px;
+            margin: 0 auto;
+            .navL{
+                height:42px;
+                float: left;
+                .navLi{
+                    height: 42px;
+                    margin-right:50px;
+                    float: left; 
+                    a{
+                        display: block;
+                        width: auto;
+                        height: 42px;
+                        line-height: 42px;
+                        float: left;
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                }
+            }
+            .navR{
+                width: 111px;
+                height:42px;
+                float: right;
+                .navG{
+                    font-size: 12px;
+                    width: 23px;
+                    text-align: center;
+                    line-height: 42px;
+                    color: #a8a8a8;
+                    background: url(../img/base_z.png) -1017px -219px no-repeat;
+                    float: left;
+                }
+                .navF{
+                   float: left;
+                   margin-left: 15px;
+                   font-size: 14px;
+                   height: 42px;
+                   line-height: 42px; 
+                   color: #fff;
+                }
+                .navJ{
+                    float: left;
+                    margin-left: 15px;
+                    font-size: 14px;
+                    height: 42px;
+                    line-height: 42px;
+                    color: #fff;
+                }
             }
         }
     }
 }
+
+
