@@ -23,8 +23,8 @@ input, button, textarea, select, optgroup, option {
 
 #headerCon{
     width: 100%;
-    height: 162px;
-    position: absolute;
+    height: 120px;
+    //position: absolute;
     .tp{
         width:100%;
         height:30px;
@@ -34,13 +34,13 @@ input, button, textarea, select, optgroup, option {
             width: 1000px;
             height: 120px;
             margin: 0 auto;
-            position: relative;
+           // position: relative;
             overflow: visible;
            
             .headerTop{
                 width:1000px;
                 height: 30px;
-                position: relative;
+               // position: relative;
                 .headerLeft{
                     height: 30px;
                     line-height: 30px;
@@ -50,6 +50,9 @@ input, button, textarea, select, optgroup, option {
                         float:left;
                         height: 30px;
                         padding:0 6px 0 0;
+                        :hover{
+                            color: red;
+                        }
                         a{
                             color:#000;
                         }
@@ -67,22 +70,28 @@ input, button, textarea, select, optgroup, option {
                     line-height:30px;
                     float:right;
                     padding: 0 80px 0 0;
-                    position: relative;
+                   // position: relative;
                     li{
                         float: left;
                         height: 30px;
                         line-height: 30px;
                         padding: 0 0 0 20px;
+                        .erWe{
+                            display: block;
+                            position: absolute;
+                            right: 263px;
+                            top: -105px;
+                        }
                         a{
                             color:#000;
                         }
                         .bg{
-                            background:url(../img/base_z.png) -604px -329px no-repeat;
+                            background:url(../img/base_z.png) -604px -323px no-repeat;
                             display: block;
-                            width: 20px;
-                            height: 17px;
-                            position: relative;
-                            top: 6px;
+                            width: 30px;
+                            height: 30px;
+                            //position: relative;
+                            top: 10px;
                             right: 10px;
                             white-space: nowrap;
                             text-indent: -9999px;
@@ -116,20 +125,29 @@ input, button, textarea, select, optgroup, option {
             }
         }
     }
-    .headerNav{
+
+}
+
+    #headerNav{
         width: 100%;
         height: 42px;
         background: #000;
-        position: relative;
-        top: 90px;
+        //position: absolute;
+        top: 120px;
         left: 0;
         .nav{
-            width: 1000px;
+            width: 100%;
             height: 42px;
             margin: 0 auto;
+            position: relative;
+            .navH{
+                width: 100%;
+                background: #000;
+                position: absolute;
             .navL{
                 height:42px;
                 float: left;
+                margin-left: 130px;
                 .navLi{
                     height: 42px;
                     margin-right:50px;
@@ -149,6 +167,7 @@ input, button, textarea, select, optgroup, option {
                 width: 111px;
                 height:42px;
                 float: right;
+                margin-right: 130px;
                 .navG{
                     font-size: 12px;
                     width: 23px;
@@ -176,7 +195,6 @@ input, button, textarea, select, optgroup, option {
                 }
             }
         }
+        }
     }
-}
-
 

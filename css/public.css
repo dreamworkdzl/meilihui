@@ -56,8 +56,7 @@ input, button, textarea, select, optgroup, option {
 /* 头部  */
 #headerCon {
   width: 100%;
-  height: 162px;
-  position: absolute;
+  height: 120px;
 }
 #headerCon .tp {
   width: 100%;
@@ -68,13 +67,11 @@ input, button, textarea, select, optgroup, option {
   width: 1000px;
   height: 120px;
   margin: 0 auto;
-  position: relative;
   overflow: visible;
 }
 #headerCon .tp .header .headerTop {
   width: 1000px;
   height: 30px;
-  position: relative;
 }
 #headerCon .tp .header .headerTop .headerLeft {
   height: 30px;
@@ -85,6 +82,9 @@ input, button, textarea, select, optgroup, option {
   float: left;
   height: 30px;
   padding: 0 6px 0 0;
+}
+#headerCon .tp .header .headerTop .headerLeft .theLi :hover {
+  color: red;
 }
 #headerCon .tp .header .headerTop .headerLeft .theLi a {
   color: #000;
@@ -101,7 +101,6 @@ input, button, textarea, select, optgroup, option {
   line-height: 30px;
   float: right;
   padding: 0 80px 0 0;
-  position: relative;
 }
 #headerCon .tp .header .headerTop .headerRight li {
   float: left;
@@ -109,16 +108,21 @@ input, button, textarea, select, optgroup, option {
   line-height: 30px;
   padding: 0 0 0 20px;
 }
+#headerCon .tp .header .headerTop .headerRight li .erWe {
+  display: block;
+  position: absolute;
+  right: 263px;
+  top: -105px;
+}
 #headerCon .tp .header .headerTop .headerRight li a {
   color: #000;
 }
 #headerCon .tp .header .headerTop .headerRight li .bg {
-  background: url(../img/base_z.png) -604px -329px no-repeat;
+  background: url(../img/base_z.png) -604px -323px no-repeat;
   display: block;
-  width: 20px;
-  height: 17px;
-  position: relative;
-  top: 6px;
+  width: 30px;
+  height: 30px;
+  top: 10px;
   right: 10px;
   white-space: nowrap;
   text-indent: -9999px;
@@ -147,29 +151,36 @@ input, button, textarea, select, optgroup, option {
   text-indent: -9999px;
   float: left;
 }
-#headerCon .headerNav {
+
+#headerNav {
   width: 100%;
   height: 42px;
   background: #000;
-  position: relative;
-  top: 90px;
+  top: 120px;
   left: 0;
 }
-#headerCon .headerNav .nav {
-  width: 1000px;
+#headerNav .nav {
+  width: 100%;
   height: 42px;
   margin: 0 auto;
+  position: relative;
 }
-#headerCon .headerNav .nav .navL {
+#headerNav .nav .navH {
+  width: 100%;
+  background: #000;
+  position: absolute;
+}
+#headerNav .nav .navH .navL {
   height: 42px;
   float: left;
+  margin-left: 130px;
 }
-#headerCon .headerNav .nav .navL .navLi {
+#headerNav .nav .navH .navL .navLi {
   height: 42px;
   margin-right: 50px;
   float: left;
 }
-#headerCon .headerNav .nav .navL .navLi a {
+#headerNav .nav .navH .navL .navLi a {
   display: block;
   width: auto;
   height: 42px;
@@ -178,12 +189,13 @@ input, button, textarea, select, optgroup, option {
   font-size: 14px;
   color: #fff;
 }
-#headerCon .headerNav .nav .navR {
+#headerNav .nav .navH .navR {
   width: 111px;
   height: 42px;
   float: right;
+  margin-right: 130px;
 }
-#headerCon .headerNav .nav .navR .navG {
+#headerNav .nav .navH .navR .navG {
   font-size: 12px;
   width: 23px;
   text-align: center;
@@ -192,7 +204,7 @@ input, button, textarea, select, optgroup, option {
   background: url(../img/base_z.png) -1017px -219px no-repeat;
   float: left;
 }
-#headerCon .headerNav .nav .navR .navF {
+#headerNav .nav .navH .navR .navF {
   float: left;
   margin-left: 15px;
   font-size: 14px;
@@ -200,7 +212,7 @@ input, button, textarea, select, optgroup, option {
   line-height: 42px;
   color: #fff;
 }
-#headerCon .headerNav .nav .navR .navJ {
+#headerNav .nav .navH .navR .navJ {
   float: left;
   margin-left: 15px;
   font-size: 14px;

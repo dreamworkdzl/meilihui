@@ -1,24 +1,94 @@
 @charset "UTF-8";
 /****   banner图    ****/
 #banner {
-  position: absolute;
+  position: relative;
   overflow: hidden;
   width: 1280px;
-  height: 686px;
-  z-index: -9999;
+  height: 523px;
 }
 #banner .bigBanner {
+  display: block;
   width: 1800px;
   height: 524px;
-  display: block;
   background: url(../img/banner.jpg) no-repeat;
-  position: absolute;
-  top: 161px;
+  position: relative;
+  top: 0;
   left: 50%;
   margin: auto;
   margin-left: -900px;
 }
 
 /****   首页内容     ****/
+#conter {
+  width: 1040px;
+  min-height: 500px;
+  margin: 0 auto;
+  background: #ccc;
+}
+#conter .conterTop {
+  height: 48px;
+  width: 1000px;
+  margin: 10px auto;
+}
+#conter .conterTop .conSx {
+  line-height: 48px;
+  font-size: 22px;
+}
+#conter .conHz {
+  width: 1020px;
+}
+#conter .conLj {
+  display: block;
+  margin-right: 20px;
+  clear: both;
+  text-align: right;
+  font-size: 12px;
+  color: #000;
+  background: url(../img/icon_arrows_right_black.gif) right no-repeat;
+  padding-right: 8px;
+}
+#conter .conterPho {
+  width: 320px;
+  height: 231px;
+  margin-left: 20px;
+  float: left;
+  margin-bottom: 20px;
+}
+#conter .conterPho .conP {
+  width: 320px;
+  height: 192px;
+  border: 1px solid black;
+}
+#conter .conterPho .conN {
+  width: 322px;
+  height: 39px;
+}
+#conter .conterPho .conN a {
+  font-size: 12px;
+  line-height: 39px;
+  float: left;
+}
+#conter .conterPho .conN .span-1 {
+  display: block;
+  font-size: 16px;
+  color: #dc2726;
+  float: right;
+  padding-top: 10px;
+}
+#conter .conterPho .conN .span-2 {
+  display: block;
+  font-size: 12px;
+  color: #dc2726;
+  float: right;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.conterWoman {
+  width: 320px;
+  height: 484px;
+  margin: 0 0 18px 20px;
+  float: left;
+}
 
 /*# sourceMappingURL=index.css.map */
