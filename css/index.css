@@ -64,16 +64,15 @@
 #conter .conterPho .conP .conZ {
   width: 320px;
   height: 192px;
-  background: red;
   display: block;
   opacity: 1;
 }
 #conter .conterPho .conP .conZ a img {
   transition: all 1s;
-  -webkt-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 #conter .conterPho .conP .conZ a :hover {
+  -webkt-filter: grayscale(100%);
+  filter: grayscale(100%);
   transform: scale(1.2);
 }
 #conter .conterPho .conN {
@@ -106,6 +105,53 @@
   height: 484px;
   margin: 0 0 18px 20px;
   float: left;
+}
+
+.er {
+  width: 98px;
+  height: 300px;
+  position: fixed;
+  left: 50%;
+  margin-left: 550px;
+  bottom: 50px;
+  overflow: hidden;
+  z-index: 9997;
+  text-align: center;
+  background: transparent;
+}
+.er .con_guding {
+  overflow: hidden;
+  background: #000;
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 0;
+}
+.er .con_guding span {
+  color: red;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.er .erweima {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background: #FFFFFF;
+  padding: 5px 0;
+}
+.er .erweima span {
+  line-height: 22px;
+  display: inline-block;
+}
+.er .erweima img {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  margin: 5px;
+}
+.er .dingbu {
+  width: 100px;
+  height: 20px;
+  background: #ccc;
 }
 
 /*# sourceMappingURL=index.css.map */

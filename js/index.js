@@ -34,7 +34,11 @@ $(function(){
 	.then(function(res){
 		for(var i = 0;i < 18;i++){
 			str += `<div class="conterPho">
-						<div class="conP"><a href="#"><img src=${res[i].img}/></a></div>
+						<div class="conP">
+							<div class="conZ">
+								<a href="#"><img src=${res[i].img}/></a>
+							</div>
+						</div>
 						<div class="conN">
 							<h3><a href="#" style="color: #000;">${res[i].name}</a>
 								<span class="span-2">折起</span><span class="span-1">${res[i].price}</span></h3>
@@ -51,7 +55,11 @@ $(function(){
 	.then(function(res){
 		for(var i = 18;i < 27;i++){
 			str1 += `<div class="conterPho">
-						<div class="conP"><a href="#"><img src=${res[i].img}/></a></div>
+						<div class="conP">
+							<div class="conZ">
+								<a href="#"><img src=${res[i].img}/></a>
+							</div>
+						</div>
 						<div class="conN">
 							<h3><a href="#" style="color: #000;">${res[i].name}</a>
 								<span class="span-2">折起</span><span class="span-1">${res[i].price}</span></h3>
@@ -68,7 +76,11 @@ $(function(){
 	.then(function(res){
 		for(var i = 27;i < 37;i++){
 			str2 += `<div class="conterPho">
-						<div class="conP"><a href="#"><img src=${res[i].img}/></a></div>
+						<div class="conP">
+							<div class="conZ">
+								<a href="#"><img src=${res[i].img}/></a>
+							</div>
+						</div>
 						<div class="conN">
 							<h3><a href="#" style="color: #000;">${res[i].name}</a>
 								<span class="span-2">折起</span><span class="span-1">${res[i].price}</span></h3>
@@ -85,7 +97,11 @@ $(function(){
 	.then(function(res){
 		for(var i = 37;i < 44;i++){
 			str3 += `<div class="conterPho">
-						<div class="conP"><a href="#"><img src=${res[i].img}/></a></div>
+						<div class="conP">
+							<div class="conZ">
+								<a href="#"><img src=${res[i].img}/></a>
+							</div>
+						</div>
 						<div class="conN">
 							<h3><a href="#" style="color: #000;">${res[i].name}</a>
 								<span class="span-2">折起</span><span class="span-1">${res[i].price}</span></h3>
@@ -101,7 +117,11 @@ $(function(){
 	.then(function(res){
 		for(var i = 44;i < 51;i++){
 			str4 += `<div class="conterPho">
-						<div class="conP"><a href="#"><img src=${res[i].img}/></a></div>
+						<div class="conP">
+							<div class="conZ">
+								<a href="#"><img src=${res[i].img}/></a>
+							</div>
+						</div>
 						<div class="conN">
 							<h3><a href="#" style="color: #000;">${res[i].name}</a>
 								<span class="span-2">折起</span><span class="span-1">${res[i].price}</span></h3>
@@ -118,7 +138,9 @@ $(function(){
 		for(var i = 51;i < 55;i++){
 			str5 += `<div class="conterPho">
 						<div class="conP">
-							<a href="#"><img src=${res[i].img}/></a>
+							<div class="conZ">
+								<a href="#"><img src=${res[i].img}/></a>
+							</div>
 						</div>
 						<div class="conN">
 							<h3><a href="#" style="color: #000;">${res[i].name}</a>
@@ -135,7 +157,11 @@ $(function(){
 	.then(function(res){
 		for(var i = 55;i < 59;i++){
 			str6 += `<div class="conterPho">
-						<div class="conP"><a href="#"><img src=${res[i].img}/></a></div>
+						<div class="conP">
+							<div class="conZ">
+								<a href="#"><img src=${res[i].img}/></a>
+							</div>
+						</div>
 						<div class="conN">
 							<h3><a href="#" style="color: #000;">${res[i].name}</a>
 								<span class="span-2">折起</span><span class="span-1">${res[i].price}</span></h3>
