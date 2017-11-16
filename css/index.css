@@ -23,7 +23,8 @@
   width: 1040px;
   min-height: 500px;
   margin: 0 auto;
-  background: #ccc;
+  position: relative;
+  top: -100px;
 }
 #conter .conterTop {
   height: 48px;
@@ -58,6 +59,22 @@
   width: 320px;
   height: 192px;
   border: 1px solid black;
+  overflow: hidden;
+}
+#conter .conterPho .conP .conZ {
+  width: 320px;
+  height: 192px;
+  background: red;
+  display: block;
+  opacity: 1;
+}
+#conter .conterPho .conP .conZ a img {
+  transition: all 1s;
+  -webkt-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#conter .conterPho .conP .conZ a :hover {
+  transform: scale(1.2);
 }
 #conter .conterPho .conN {
   width: 322px;

@@ -21,8 +21,9 @@
     width: 1040px;
     min-height: 500px;
     margin: 0 auto;
-    background: #ccc;
-    
+   // background: #ccc;
+    position: relative;
+    top: -100px;
     .conterTop{
        height:48px ;
        width: 1000px;
@@ -34,7 +35,6 @@
     }
     .conHz{
         width: 1020px;
-        
     }
     .conLj{
         display: block;
@@ -56,6 +56,25 @@
                 width:320px;
                 height: 192px;
                 border: 1px solid black;
+                overflow: hidden;
+               .conZ{
+                    width: 320px;
+                    height:192px;
+                    background: red;
+                    display: block;
+                    opacity: 1;
+                
+                    a{
+                        img{
+                            transition: all 1s;
+                            -webkt-filter:grayscale(100%);
+                            filter: grayscale(100%);
+                        }
+                        :hover{
+                            transform: scale(1.2);
+                        }
+                    }
+                }
             }
             .conN{
                 width: 322px;
@@ -82,7 +101,6 @@
                 }
             }
         }
-        
 }
 
 

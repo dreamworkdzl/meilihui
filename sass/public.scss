@@ -77,10 +77,13 @@ input, button, textarea, select, optgroup, option {
                         line-height: 30px;
                         padding: 0 0 0 20px;
                         .erWe{
-                            display: block;
+                            display: none;
                             position: absolute;
                             right: 263px;
-                            top: -105px;
+                            top: 30px;
+                        }
+                        .qq{
+                            display: none;
                         }
                         a{
                             color:#000;
@@ -151,7 +154,10 @@ input, button, textarea, select, optgroup, option {
                 .navLi{
                     height: 42px;
                     margin-right:50px;
-                    float: left; 
+                    float: left;
+                    :hover{
+                        color: red;
+                    } 
                     a{
                         display: block;
                         width: auto;

@@ -109,10 +109,13 @@ input, button, textarea, select, optgroup, option {
   padding: 0 0 0 20px;
 }
 #headerCon .tp .header .headerTop .headerRight li .erWe {
-  display: block;
+  display: none;
   position: absolute;
   right: 263px;
-  top: -105px;
+  top: 30px;
+}
+#headerCon .tp .header .headerTop .headerRight li .qq {
+  display: none;
 }
 #headerCon .tp .header .headerTop .headerRight li a {
   color: #000;
@@ -179,6 +182,9 @@ input, button, textarea, select, optgroup, option {
   height: 42px;
   margin-right: 50px;
   float: left;
+}
+#headerNav .nav .navH .navL .navLi :hover {
+  color: red;
 }
 #headerNav .nav .navH .navL .navLi a {
   display: block;
