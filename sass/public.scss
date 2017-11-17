@@ -204,3 +204,143 @@ input, button, textarea, select, optgroup, option {
         }
     }
 
+/***  尾部   ***/
+
+.footer_con{
+    float: left;
+    width: 100%;
+    min-height:100px;
+    background:#f2f2f2;
+    position: relative;
+    //top: -35px;
+    .footer{
+        width: 1000px;
+        height: 205px;
+        margin: 0 auto;
+        padding-top: 30px;
+        background: #f2f2f2;
+        text-align: center;
+        .footer_adva{
+            width: 1000px;
+            height: 60px;
+            margin: 0 auto;
+            text-align: left;   
+            margin-bottom: 20px;
+            overflow: hidden;
+            li{
+                display: block; 
+                width: 165px;
+                height: 60px;
+                float: left;
+                overflow: hidden;
+                border-right: 1px solid #777;
+                
+                .a1{
+                    display: block;
+                    width: 165px;
+                    height: 60px;
+                    overflow: hidden;
+                    line-height: 95px;
+                    text-align: center;
+                    color: #000;
+                    background: url(../img/base_z.png) -153px -146px no-repeat;
+//                  background-position: 
+                    &:hover{
+                        background: url(../img/base_z.png) -153px -264px no-repeat;
+                    
+                    }
+                }
+                .a2{
+                    display: block;
+                    width: 165px;
+                    height: 60px;
+                    overflow: hidden;
+                    line-height: 95px;
+                    text-align: center;
+                    color: #000;
+                    background: url(../img/base_z.png) -543px -104px no-repeat;
+                    &:hover{
+                    background: url(../img/base_z.png) -543px 7px no-repeat;
+                        
+                    }
+                }
+                .a3{
+                    display: block;
+                    width: 165px;
+                    height: 60px;
+                    overflow: hidden;
+                    line-height: 95px;
+                    text-align: center;
+                    color: #000;
+                    background: url(../img/base_z.png) -150px -382px no-repeat;
+                    &:hover{
+                        background: url(../img/base_z.png) -301px -229px no-repeat;
+                        
+                    }
+                }
+                .a4{
+                    display: block;
+                    width: 165px;
+                    height: 60px;
+                    overflow: hidden;
+                    line-height: 95px;
+                    text-align: center;
+                    color: #000;
+                    background: url(../img/base_z.png) -419px 5px no-repeat;
+                    &:hover{
+                    background: url(../img/base_z.png) -419px -107px no-repeat;
+                    }
+                }
+                .a5{
+                    display: block;
+                    width: 165px;
+                    height: 60px;
+                    overflow: hidden;
+                    line-height: 95px;
+                    text-align: center;
+                    color: #000;
+                    background: url(../img/base_z.png) -310px -346px no-repeat;
+                    &:hover{
+                        background: url(../img/base_z.png) -310px -459px no-repeat;
+                    }
+                }
+                .a6{
+                    display: block;
+                    width: 165px;
+                    height: 60px;
+                    overflow: hidden;
+                    line-height: 95px;
+                    text-align: center;
+                    color: #000;
+                    background: url(../img/base_z.png) -310px -112px no-repeat;
+                    &:hover{
+                    background: url(../img/base_z.png) -310px 5px no-repeat;
+                    }
+                }
+            }
+            li:last-child{
+                border: 0;
+            }
+        }
+        .footer_fir{
+            margin-bottom: 20px;
+            a{
+                margin-left: 12px;
+                margin-right: 12px;
+                color: #000000;
+            }
+        }
+        .footer_sec{
+            margin-bottom: 20px;
+            
+        }
+        .footer_srt{
+            margin-bottom: 20px;
+            margin-top: 30px;
+            text-align: center;
+            width: 35px;
+            height: 36px;
+            margin: 0 auto;
+        }
+    }
+}

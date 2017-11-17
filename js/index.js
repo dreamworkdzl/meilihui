@@ -180,7 +180,11 @@ $(function(){
 						<div class="conP">
 							<div class="conZ">
 								<a href="#"><img src=${res[i].img}/></a>
+								<p class="conX">
+									活动还有3天结束
+								</p>
 							</div>
+							
 						</div>
 						
 						<div class="conN">
@@ -193,12 +197,102 @@ $(function(){
 	})
 
 /*******		鼠标滑入		  *******/
-//var oConZ = document.getElementById("conZ");
-//	oConZ.onmouseover = function(e){
-//		var e = e ||event;
-//		oConZ.style.display = "block";
-//	}
-//	oConZ.onmouseout = function(){
-//		oConZ.style.display = "none";
-//	}
 
+
+$(function(){
+	$(".conZ .conX").mouseenter(function(){
+		$(this).css("display","block");
+		console.log($(this))
+		//$(this).show();
+	},function(){
+		$(this).css({"display":"none"});
+		//$(this).hide();
+	})
+})
+
+/*******		选项卡		  *******/
+//				A
+var str8 ='';
+	$.ajax("json/index.json")
+	
+	.then(function(res){
+		for(var i = 63;i < 66;i++){
+			str8 += `
+				<div class="tag_hezi">
+					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
+					<div class="tag_wenzi">
+						<p>${res[i].name}</p>
+						<p><span>${res[i].price}</span>折起</p>
+					</div>
+				</div>`;
+		}
+	$(".tab_con_A").html(str8);
+	})
+//				B
+var str9 ='';
+	$.ajax("json/index.json")
+	
+	.then(function(res){
+		for(var i = 66;i < 70;i++){
+			str9 += `
+				<div class="tag_hezi">
+					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
+					<div class="tag_wenzi">
+						<p>${res[i].name}</p>
+						<p><span>${res[i].price}</span>折起</p>
+					</div>
+				</div>`;
+		}
+	$(".tab_con_B").html(str9);
+	})
+//				C	
+//var str8 ='';
+//	$.ajax("json/index.json")
+//	
+//	.then(function(res){
+//		for(var i = 66;i < 72;i++){
+//			str8 += `
+//				<div class="tag_hezi">
+//					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
+//					<div class="tag_wenzi">
+//						<p>${res[i].name}</p>
+//						<p><span>${res[i].price}</span>折起</p>
+//					</div>
+//				</div>`;
+//		}
+//	$(".tab_con_C").html(str8);
+//	})
+////				D	
+//var str8 ='';
+//	$.ajax("json/index.json")
+//	
+//	.then(function(res){
+//		for(var i = 63;i < 66;i++){
+//			str8 += `
+//				<div class="tag_hezi">
+//					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
+//					<div class="tag_wenzi">
+//						<p>${res[i].name}</p>
+//						<p><span>${res[i].price}</span>折起</p>
+//					</div>
+//				</div>`;
+//		}
+//	$(".tab_con_D").html(str8);
+//	})
+////				E
+//var str8 ='';
+//	$.ajax("json/index.json")
+//	
+//	.then(function(res){
+//		for(var i = 63;i < 66;i++){
+//			str8 += `
+//				<div class="tag_hezi">
+//					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
+//					<div class="tag_wenzi">
+//						<p>${res[i].name}</p>
+//						<p><span>${res[i].price}</span>折起</p>
+//					</div>
+//				</div>`;
+//		}
+//	$(".tab_con_E").html(str8);
+//	})

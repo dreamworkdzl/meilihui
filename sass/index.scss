@@ -1,4 +1,8 @@
 /****   banner图    ****/
+//body{
+//  background:#f2f2f2;
+//  
+//}
 #banner{
     position: relative;
     overflow: hidden;
@@ -19,11 +23,11 @@
 /****   首页内容     ****/
 #conter{
     width: 1040px;
-    min-height: 500px;
+    min-height: 1px;
     margin: 0 auto;
    // background: #ccc;
     position: relative;
-    top: -100px;
+    top: -50px;
     .conterTop{
        height:48px ;
        width: 1000px;
@@ -52,16 +56,21 @@
             margin-left: 20px;
             float: left;
             margin-bottom: 20px;
+            background: #f2f2f2;
             .conP{
                 width:320px;
                 height: 192px;
-                border: 1px solid black;
+                border: 1px solid #e7e7e7;
                 overflow: hidden;
                .conZ{
                     width: 320px;
                     height:192px;
                     display: block;
                     opacity: 1;
+                   
+//              .active{
+//                  display: block;
+//              }
                 
                     a{
                         img{
@@ -73,6 +82,18 @@
                             transform: scale(1.2);
                         }
                     }
+                     .conX{
+                    width: 320px;
+                    background: #CCCCCC;
+                    color: #fff;
+                    text-align: center;
+                    position: relative;
+                    top: -105px;
+                    display: none;
+                    :hover{
+                        display: block;
+                    }
+                }
                 }
             }
             .conN{
@@ -149,10 +170,99 @@
             margin: 5px;
         }
     }
-    .dingbu{
-        width: 100px;
-        height:20px;
-        background: #ccc;
+}
+//选项卡
+.tab_top{
+    width: 1000px;
+    height: 25px;
+    font-size: 14px;
+    padding-left: 20px;
+    position: relative;
+    margin: -30px auto 30px ;
+    .tab_top_a{
+        float: left;
+        height: 16px;
+        line-height: 16px;
+        
+        
+        span{
+               display: block;
+               height: 16px;
+               line-height: 16px;
+               float: left;
+               width: 89px;
+               text-align: center;
+               cursor: pointer;
+               border-right: 1px solid #000;
+        }
+        span:first-child{
+            border-left: 1px solid #000;
+        }
+    }
+    .tab_cen{
+        width: 90px;
+        height: 4px;
+        overflow: hidden;
+        background: #000;
+        position:absolute;
+        bottom: 0;
+        
+    }
+    .tab_cen_aa{
+        width: 1020px;
+        height: 10px;
+        padding-top: 9px;
+        clear: both;
+        .tab_sx{
+            height: 27px;
+            position: absolute;
+            right: 0;
+            top:-7px;
+            span{
+                font-size: 27px;
+                color: #db2726;
+            }
+        }
+    }
+}
+.tab_con_A{
+    width: 1020px;
+    height: 90px;
+    min-height: 90px;
+    margin-left: 20px;
+    margin: 20px auto;
+    clear: both;
+    .tag_hezi{
+        width:318px;
+        height: 90px;
+        border: 1px solid #e7e7e7;
+        float: left;
+        margin: 0 20px 20px 0;
+        .tag_img{
+          width: 149px;
+          height: 88px;
+          float: left;
+            
+        }
+        .tag_wenzi{
+            width: 169px;
+            height:88px;
+            overflow: hidden;
+            float:right;
+           // position: relative;
+            p:first-child{
+                max-height: 32px;
+                overflow: hidden;
+                margin: 10px 0 0 10px;
+              }
+             p:last-child{
+                margin: 10px 0 0 10px;
+                span{
+                    font-size: 18px;
+                    color: #db2726;
+                }
+            }
+        }
     }
 }
 
@@ -160,10 +270,99 @@
 
 
 
-
-
-
-
+.tab_top{
+    width: 1000px;
+    height: 25px;
+    font-size: 14px;
+    padding-left: 20px;
+    position: relative;
+    margin: -30px auto 30px ;
+    .tab_top_a{
+        float: left;
+        height: 16px;
+        line-height: 16px;
+        
+        
+        span{
+               display: block;
+               height: 16px;
+               line-height: 16px;
+               float: left;
+               width: 89px;
+               text-align: center;
+               cursor: pointer;
+               border-right: 1px solid #000;
+        }
+        span:first-child{
+            border-left: 1px solid #000;
+        }
+    }
+    .tab_cen{
+        width: 90px;
+        height: 4px;
+        overflow: hidden;
+        background: #000;
+        position:absolute;
+        bottom: 0;
+        
+    }
+    .tab_cen_aa{
+        width: 1020px;
+        height: 10px;
+        padding-top: 9px;
+        clear: both;
+        .tab_sx{
+            height: 27px;
+            position: absolute;
+            right: 0;
+            top:-7px;
+            span{
+                font-size: 27px;
+                color: #db2726;
+            }
+        }
+    }
+}
+.tab_con_B{
+    width: 1020px;
+    height: 90px;
+    min-height: 90px;
+    margin-left: 20px;
+    margin: 20px auto;
+    clear: both;
+    .tag_hezi{
+        width:318px;
+        height: 90px;
+        border: 1px solid #e7e7e7;
+        float: left;
+        margin: 0 20px 20px 0;
+        .tag_img{
+          width: 149px;
+          height: 88px;
+          float: left;
+            
+        }
+        .tag_wenzi{
+            width: 169px;
+            height:88px;
+            overflow: hidden;
+            float:right;
+           // position: relative;
+            p:first-child{
+                max-height: 32px;
+                overflow: hidden;
+                margin: 10px 0 0 10px;
+              }
+             p:last-child{
+                margin: 10px 0 0 10px;
+                span{
+                    font-size: 18px;
+                    color: #db2726;
+                }
+            }
+        }
+    }
+}
 
 
 
