@@ -6,12 +6,11 @@
   width: 1280px;
   height: 523px;
 }
-#banner .bigBanner {
+#banner li {
   display: block;
   width: 1800px;
   height: 524px;
-  background: url(../img/banner.jpg) no-repeat;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 50%;
   margin: auto;
@@ -25,6 +24,7 @@
   margin: 0 auto;
   position: relative;
   top: -50px;
+  z-index: 10;
 }
 #conter .conterTop {
   height: 48px;
@@ -34,6 +34,7 @@
 #conter .conterTop .conSx {
   line-height: 48px;
   font-size: 22px;
+  z-index: 11;
 }
 #conter .conHz {
   width: 1020px;
@@ -47,6 +48,9 @@
   color: #000;
   background: url(../img/icon_arrows_right_black.gif) right no-repeat;
   padding-right: 8px;
+}
+#conter .conLj:hover {
+  color: red;
 }
 #conter .conterPho {
   width: 320px;
@@ -184,6 +188,10 @@
   text-align: center;
   cursor: pointer;
   border-right: 1px solid #000;
+  padding-bottom: 5px;
+}
+.tab_top .tab_top_a span:first-child {
+  border-bottom: 4px solid #000;
 }
 .tab_top .tab_top_a span:first-child {
   border-left: 1px solid #000;
@@ -252,57 +260,6 @@
   color: #db2726;
 }
 
-.tab_top {
-  width: 1000px;
-  height: 25px;
-  font-size: 14px;
-  padding-left: 20px;
-  position: relative;
-  margin: -30px auto 30px;
-}
-.tab_top .tab_top_a {
-  float: left;
-  height: 16px;
-  line-height: 16px;
-}
-.tab_top .tab_top_a span {
-  display: block;
-  height: 16px;
-  line-height: 16px;
-  float: left;
-  width: 89px;
-  text-align: center;
-  cursor: pointer;
-  border-right: 1px solid #000;
-}
-.tab_top .tab_top_a span:first-child {
-  border-left: 1px solid #000;
-}
-.tab_top .tab_cen {
-  width: 90px;
-  height: 4px;
-  overflow: hidden;
-  background: #000;
-  position: absolute;
-  bottom: 0;
-}
-.tab_top .tab_cen_aa {
-  width: 1020px;
-  height: 10px;
-  padding-top: 9px;
-  clear: both;
-}
-.tab_top .tab_cen_aa .tab_sx {
-  height: 27px;
-  position: absolute;
-  right: 0;
-  top: -7px;
-}
-.tab_top .tab_cen_aa .tab_sx span {
-  font-size: 27px;
-  color: #db2726;
-}
-
 .tab_con_B {
   width: 1020px;
   height: 90px;
@@ -310,6 +267,7 @@
   margin-left: 20px;
   margin: 20px auto;
   clear: both;
+  display: none;
 }
 .tab_con_B .tag_hezi {
   width: 318px;
@@ -338,6 +296,126 @@
   margin: 10px 0 0 10px;
 }
 .tab_con_B .tag_hezi .tag_wenzi p:last-child span {
+  font-size: 18px;
+  color: #db2726;
+}
+
+.tab_con_C {
+  width: 1020px;
+  height: 90px;
+  min-height: 90px;
+  margin-left: 20px;
+  margin: 20px auto;
+  clear: both;
+  display: none;
+}
+.tab_con_C .tag_hezi {
+  width: 318px;
+  height: 90px;
+  border: 1px solid #e7e7e7;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.tab_con_C .tag_hezi .tag_img {
+  width: 149px;
+  height: 88px;
+  float: left;
+}
+.tab_con_C .tag_hezi .tag_wenzi {
+  width: 169px;
+  height: 88px;
+  overflow: hidden;
+  float: right;
+}
+.tab_con_C .tag_hezi .tag_wenzi p:first-child {
+  max-height: 32px;
+  overflow: hidden;
+  margin: 10px 0 0 10px;
+}
+.tab_con_C .tag_hezi .tag_wenzi p:last-child {
+  margin: 10px 0 0 10px;
+}
+.tab_con_C .tag_hezi .tag_wenzi p:last-child span {
+  font-size: 18px;
+  color: #db2726;
+}
+
+.tab_con_D {
+  width: 1020px;
+  height: 90px;
+  min-height: 90px;
+  margin-left: 20px;
+  margin: 20px auto;
+  clear: both;
+  display: none;
+}
+.tab_con_D .tag_hezi {
+  width: 318px;
+  height: 90px;
+  border: 1px solid #e7e7e7;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.tab_con_D .tag_hezi .tag_img {
+  width: 149px;
+  height: 88px;
+  float: left;
+}
+.tab_con_D .tag_hezi .tag_wenzi {
+  width: 169px;
+  height: 88px;
+  overflow: hidden;
+  float: right;
+}
+.tab_con_D .tag_hezi .tag_wenzi p:first-child {
+  max-height: 32px;
+  overflow: hidden;
+  margin: 10px 0 0 10px;
+}
+.tab_con_D .tag_hezi .tag_wenzi p:last-child {
+  margin: 10px 0 0 10px;
+}
+.tab_con_D .tag_hezi .tag_wenzi p:last-child span {
+  font-size: 18px;
+  color: #db2726;
+}
+
+.tab_con_E {
+  width: 1020px;
+  height: 90px;
+  min-height: 90px;
+  margin-left: 20px;
+  margin: 20px auto;
+  clear: both;
+  display: none;
+}
+.tab_con_E .tag_hezi {
+  width: 318px;
+  height: 90px;
+  border: 1px solid #e7e7e7;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.tab_con_E .tag_hezi .tag_img {
+  width: 149px;
+  height: 88px;
+  float: left;
+}
+.tab_con_E .tag_hezi .tag_wenzi {
+  width: 169px;
+  height: 88px;
+  overflow: hidden;
+  float: right;
+}
+.tab_con_E .tag_hezi .tag_wenzi p:first-child {
+  max-height: 32px;
+  overflow: hidden;
+  margin: 10px 0 0 10px;
+}
+.tab_con_E .tag_hezi .tag_wenzi p:last-child {
+  margin: 10px 0 0 10px;
+}
+.tab_con_E .tag_hezi .tag_wenzi p:last-child span {
   font-size: 18px;
   color: #db2726;
 }

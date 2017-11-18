@@ -246,53 +246,80 @@ var str9 ='';
 	$(".tab_con_B").html(str9);
 	})
 //				C	
-//var str8 ='';
-//	$.ajax("json/index.json")
-//	
-//	.then(function(res){
-//		for(var i = 66;i < 72;i++){
-//			str8 += `
-//				<div class="tag_hezi">
-//					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
-//					<div class="tag_wenzi">
-//						<p>${res[i].name}</p>
-//						<p><span>${res[i].price}</span>折起</p>
-//					</div>
-//				</div>`;
-//		}
-//	$(".tab_con_C").html(str8);
-//	})
-////				D	
-//var str8 ='';
-//	$.ajax("json/index.json")
-//	
-//	.then(function(res){
-//		for(var i = 63;i < 66;i++){
-//			str8 += `
-//				<div class="tag_hezi">
-//					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
-//					<div class="tag_wenzi">
-//						<p>${res[i].name}</p>
-//						<p><span>${res[i].price}</span>折起</p>
-//					</div>
-//				</div>`;
-//		}
-//	$(".tab_con_D").html(str8);
-//	})
-////				E
-//var str8 ='';
-//	$.ajax("json/index.json")
-//	
-//	.then(function(res){
-//		for(var i = 63;i < 66;i++){
-//			str8 += `
-//				<div class="tag_hezi">
-//					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
-//					<div class="tag_wenzi">
-//						<p>${res[i].name}</p>
-//						<p><span>${res[i].price}</span>折起</p>
-//					</div>
-//				</div>`;
-//		}
-//	$(".tab_con_E").html(str8);
-//	})
+var str10 ='';
+	$.ajax("json/index.json")
+	
+	.then(function(res){
+		for(var i = 70;i < 76;i++){
+			str10 += `
+				<div class="tag_hezi">
+					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
+					<div class="tag_wenzi">
+						<p>${res[i].name}</p>
+						<p><span>${res[i].price}</span>折起</p>
+					</div>
+				</div>`;
+		}
+	$(".tab_con_C").html(str10);
+	})
+//				D	
+var str11 ='';
+	$.ajax("json/index.json")
+	
+	.then(function(res){
+		for(var i = 76;i < 85;i++){
+			str11 += `
+				<div class="tag_hezi">
+					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
+					<div class="tag_wenzi">
+						<p>${res[i].name}</p>
+						<p><span>${res[i].price}</span>折起</p>
+					</div>
+				</div>`;
+		}
+	$(".tab_con_D").html(str11);
+	})
+//				E
+var str12 ='';
+	$.ajax("json/index.json")
+	
+	.then(function(res){
+		for(var i = 85;i < 93;i++){
+			str12 += `
+				<div class="tag_hezi">
+					<div class="tag_img"><a href="#"><img src=${res[i].img}/></a></div>
+					<div class="tag_wenzi">
+						<p>${res[i].name}</p>
+						<p><span>${res[i].price}</span>折起</p>
+					</div>
+				</div>`;
+		}
+	$(".tab_con_E").html(str12);
+	})
+	
+//选项卡 效果
+$(function(){
+	$(".tab_top_a span").click(function(){
+		$(".tab_top_a span").css({"border-bottom":"0"});
+		$(this).css("border-bottom","4px solid #000")
+		//console.log($(".tab_con div").eq( $(this).index() ))
+		//$(".tab_con div").css("display","none");
+		$(".tab_con>div").eq( $(this).index() ).css({"display":"block"}).siblings().css("display","none");		
+//		alert( $(this).index() )
+	})
+})
+/*******		banner轮播图		  *******/
+var timer= setInterval(autoPlay,3000);
+var index = 0;
+function autoPlay(){
+	index++;
+	if(index == 3){
+		index = 0;
+	}
+	$("#banner .banner_ul li").eq(index)
+							  .fadeIn(1000)
+							  .siblings()
+							  .fadeOut(1000);
+}
+
+
