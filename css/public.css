@@ -231,7 +231,7 @@ input, button, textarea, select, optgroup, option {
 .footer_con {
   float: left;
   width: 100%;
-  min-height: 100px;
+  min-height: 1px;
   background: #f2f2f2;
   position: relative;
 }
@@ -339,25 +339,6 @@ input, button, textarea, select, optgroup, option {
 }
 .footer_con .footer .footer_adva li:last-child {
   border: 0;
-}
-.footer_con .footer .footer_fir {
-  margin-bottom: 20px;
-}
-.footer_con .footer .footer_fir a {
-  margin-left: 12px;
-  margin-right: 12px;
-  color: #000000;
-}
-.footer_con .footer .footer_sec {
-  margin-bottom: 20px;
-}
-.footer_con .footer .footer_srt {
-  margin-bottom: 20px;
-  margin-top: 30px;
-  text-align: center;
-  width: 35px;
-  height: 36px;
-  margin: 0 auto;
 }
 
 /*# sourceMappingURL=public.css.map */
