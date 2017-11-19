@@ -75,6 +75,11 @@
   margin-bottom: 10px;
   text-align: left;
 }
+.login_warp .login_contain .login_content .login_main .hy_loginbar li p {
+  padding-left: 90px;
+  text-align: left;
+  margin-top: 2px;
+}
 .login_warp .login_contain .login_content .login_main .hy_loginbar li span {
   float: left;
   width: 75px;

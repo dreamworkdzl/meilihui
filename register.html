@@ -6,6 +6,9 @@
 		
 		<link rel="stylesheet" type="text/css" href="css/register.css"/>
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+		<script src="js/register.js" ></script>
+		<script src="js/public.js"></script>
 	</head>
 	<body style="background: #dddddb;">
 
@@ -30,28 +33,27 @@
 							<ul>
 								<li>
 									<span>账户名:</span>
-									<input type="text" name="yonghu" id="yonghu" placeholder="手机号" />
-									
+									<input type="text" name="yonghu" value="" id="yonghu" placeholder="手机号" />
 									<p class="txt_1"></p>
 								</li>
 								<li>
 									<span>密码:</span>
-									<input type="text" placeholder="请输入6-20个字符" />
+									<input type="text" value="" id="passWd" placeholder="请输入6-20个字符" />
 									<p class="txt_2"></p>
 								</li>
 								<li>
 									<span>确认密码:</span>
-									<input type="text"/>
+									<input type="text" id="passWd2" value=""/>
 									<p class="txt_3"></p>
 								</li>
 								<li>
 									<span>验证码:</span>
-									<input type="text" value="" style="width: 106px;"/><span class="dianji"></span> <a href="#">换一张</a>
+									<input type="text" value="" id="yzval" style="width: 106px;"/><span class="dianji" id="yz" style="font-size: 16px;  background: url(img/1.png) no-repeat;"></span><a href="#" class="dyz">换一张</a>
 									<p class="txt_4"></p>
 								</li>
 								<li>
 									<span>短信验证码:</span>
-									<input type="text" style="width: 106px;"/><span class="dianji"></span> <a href="#">换一张</a>
+									<input type="text" id="dyzval" value="" style="width: 106px;"/><span class="dianji" id="dxyz" style="font-size: 16px; background: url(img/1.png) no-repeat;"></span><a href="#" class="dx">换一张</a>
 									<p class="txt_5"></p>
 								</li>
 							</ul>

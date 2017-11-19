@@ -1,3 +1,13 @@
+/*******		点击注册跳转页面 	   	*******/
+$(function(){
+	$(".theLi").click(function(){
+		location.href="register.html"
+	})
+})
+
+
+
+
 /*******		吸顶效果			*******/
 $(window).scroll(function() {
 	//首页及列表页
@@ -313,7 +323,7 @@ var timer= setInterval(autoPlay,3000);
 var index = 0;
 function autoPlay(){
 	index++;
-	if(index == 3){
+	if(index == 4){
 		index = 0;
 	}
 	$("#banner .banner_ul li").eq(index)

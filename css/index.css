@@ -235,6 +235,7 @@
   border: 1px solid #e7e7e7;
   float: left;
   margin: 0 20px 20px 0;
+  background: #F2F2F2;
 }
 .tab_con_A .tag_hezi .tag_img {
   width: 149px;
@@ -275,6 +276,7 @@
   border: 1px solid #e7e7e7;
   float: left;
   margin: 0 20px 20px 0;
+  background: #F2F2F2;
 }
 .tab_con_B .tag_hezi .tag_img {
   width: 149px;
@@ -315,6 +317,7 @@
   border: 1px solid #e7e7e7;
   float: left;
   margin: 0 20px 20px 0;
+  background: #F2F2F2;
 }
 .tab_con_C .tag_hezi .tag_img {
   width: 149px;
@@ -326,6 +329,7 @@
   height: 88px;
   overflow: hidden;
   float: right;
+  background: #F2F2F2;
 }
 .tab_con_C .tag_hezi .tag_wenzi p:first-child {
   max-height: 32px;
@@ -355,6 +359,7 @@
   border: 1px solid #e7e7e7;
   float: left;
   margin: 0 20px 20px 0;
+  background: #F2F2F2;
 }
 .tab_con_D .tag_hezi .tag_img {
   width: 149px;
@@ -395,6 +400,7 @@
   border: 1px solid #e7e7e7;
   float: left;
   margin: 0 20px 20px 0;
+  background: #F2F2F2;
 }
 .tab_con_E .tag_hezi .tag_img {
   width: 149px;
