@@ -145,38 +145,6 @@
   text-indent: -9999px;
   cursor: pointer;
 }
-.login_warp .login_contain .login_content .login_main .hy_part {
-  width: 350px;
-  height: auto;
-  overflow: hidden;
-  margin: 20px 0 0 0;
-}
-.login_warp .login_contain .login_content .login_main .hy_part .weibo {
-  width: 20px;
-  height: 17px;
-  overflow: hidden;
-  float: left;
-  margin: 0 25px 0 0;
-  cursor: pointer;
-  display: inline;
-}
-.login_warp .login_contain .login_content .login_main .hy_part .zhifubao {
-  width: 44px;
-  height: 17px;
-  overflow: hidden;
-  margin-top: 2px;
-  float: left;
-  margin: 0 25px 0 0;
-  cursor: pointer;
-  display: inline;
-}
-.login_warp .login_contain .login_content .login_main .hy_part .weixin {
-  width: 21px;
-  height: 17px;
-  float: left;
-  margin: 0 25px 0 0;
-  cursor: pointer;
-}
 .login_warp .login_contain .login_content .login_main .xian {
   background: #a8aaab;
   width: 350px;

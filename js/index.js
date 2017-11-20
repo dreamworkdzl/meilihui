@@ -1,7 +1,11 @@
 /*******		点击注册跳转页面 	   	*******/
 $(function(){
-	$(".theLi").click(function(){
+	$(".theLi:first").click(function(){
 		location.href="register.html"
+	})
+	
+	$("#logZ").click(function(){
+		location.href="login.html"
 	})
 })
 

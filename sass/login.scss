@@ -49,17 +49,6 @@
                         }
                     }
                 }
-//              .newPeople{
-//                  width: 260px;
-//                  height: auto;
-//                  padding-left: 90px;
-//                  overflow: hidden;
-//                  text-align: left;
-//                  padding-bottom: 10px;
-//                  span{
-//                      color: rgb(255,0,0);
-//                  }
-//               }
                 .hy_loginbar{
                     width: 100%;
                     height: auto;
@@ -154,38 +143,41 @@
                     }
                     
                 }
-                .hy_part{
-                    width: 350px;
-                    height: auto;
-                    overflow: hidden;
-                    margin: 20px 0 0 0;
-                    .weibo{
-                        width: 20px;
-                        height: 17px;
-                        overflow: hidden;
-                        float: left;
-                        margin: 0 25px 0 0;
-                        cursor: pointer;
-                        display: inline;
-                    }
-                    .zhifubao{
-                        width: 44px;
-                        height: 17px;
-                        overflow: hidden;
-                        margin-top: 2px;
-                        float: left;
-                        margin: 0 25px 0 0;
-                        cursor: pointer;
-                        display: inline;
-                    }
-                    .weixin{
-                        width: 21px;
-                        height: 17px;
-                        float: left;
-                        margin: 0 25px 0 0;
-                        cursor: pointer;
-                    }
-                }
+//              .hy_parte{
+//                  width: 350px;
+//                  height: auto;
+//                  overflow: hidden;
+//                  margin: 20px 0 0 0;
+//                  .weibo{
+//                      width: 20px;
+//                      height: 17px;
+//                      overflow: hidden;
+//                      float: left;
+//                      margin: 0 25px 0 0;
+//                      cursor: pointer;
+//                      display: inline;
+//                      background: url(../img/icon_weibo.png) no-repeat;
+//                  }
+//                  .zhifubao{
+//                      width: 44px;
+//                      height: 17px;
+//                      overflow: hidden;
+//                      margin-top: 2px;
+//                      float: left;
+//                      margin: 0 25px 0 0;
+//                      cursor: pointer;
+//                      display: inline;
+//                      background: url(../img/icon_zhifubao.png) no-repeat;
+//                  }
+//                  .weixin{
+//                      width: 21px;
+//                      height: 17px;
+//                      float: left;
+//                      margin: 0 25px 0 0;
+//                      cursor: pointer;
+//                      background: url(../img/icon_weixin.png);
+//                  }
+//              }
                 .xian{
                     background: #a8aaab;
                     width: 350px;

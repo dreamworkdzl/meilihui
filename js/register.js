@@ -126,7 +126,7 @@ $(function(){
 			
 			
 			var userPhone = $("#yonghu").val()
-			var userPassword = $("passWd").val()
+			var userPassword = $("#passWd").val()
 			var cookieValue = "{id:" + id + ',phone:"' + userPhone + '",password:' + userPassword + "}";
 			var cookieKey = "user_" + id;
 			document.cookie = cookieKey + '=' + cookieValue + ";expires=" + date + ";path=/";
@@ -149,4 +149,7 @@ $(function(){
 			}
 		}
 	}
+	$(".dl").click(function(){
+		location.href="login.html"
+	})
 })

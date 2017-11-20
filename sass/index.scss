@@ -1,8 +1,4 @@
 /****   banner图    ****/
-//body{
-//  background:#f2f2f2;
-//  
-//}
 #banner{
     position: relative;
     overflow: hidden;
@@ -12,8 +8,6 @@
             display: block;
             width: 1800px;
             height: 524px;
-//          background: url(../img/banner.jpg) no-repeat;
-//          background: url(../img/20171116111737008.jpg) no-repeat;
             position: absolute;
             top:0;
             left:50%;
@@ -26,7 +20,6 @@
     width: 1040px;
     min-height: 1px;
     margin: 0 auto;
-   // background: #ccc;
     position: relative;
     top: -50px;
     z-index: 10;
