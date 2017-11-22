@@ -197,29 +197,30 @@
 #big_box .big_box_cen .the_list {
   width: 100%;
   height: auto;
+  padding-bottom: 100px;
 }
 #big_box .big_box_cen .the_list .product {
+  display: inline-block;
+  float: left;
   width: 235px;
   height: auto;
-  float: left;
   text-align: left;
   line-height: 18px;
   white-space: nowrap;
   margin-bottom: 20px;
-  margin-right: 20px;
-  background: #ccc;
+  margin-right: 15px;
   position: relative;
 }
 #big_box .big_box_cen .the_list .product .product_img {
   display: block;
   width: 235px;
   height: 313px;
-  background: pink;
 }
 #big_box .big_box_cen .the_list .product .product_img a {
   width: 253px;
   height: 313px;
   white-space: normal;
+  position: absolute;
 }
 #big_box .big_box_cen .the_list .product .product_con {
   height: 79px;
@@ -244,6 +245,7 @@
   bottom: 0;
   left: 0;
   background: #000;
+  display: none;
 }
 #big_box .big_box_cen .the_list .product .product_pop .product_pop_con {
   width: 235px;
@@ -270,6 +272,46 @@
 }
 #big_box .big_box_cen .the_list .product .product_pop .product_pop_con .product_pop_span1 {
   border: 1px solid #000;
+}
+#big_box .big_box_cen .ui_page_bottom {
+  clear: both;
+  width: 1000px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+}
+#big_box .big_box_cen .ui_page_bottom .ui_page_warp {
+  width: 1000px;
+  height: auto;
+  padding-left: 430px;
+}
+#big_box .big_box_cen .ui_page_bottom .ui_page_warp a {
+  color: #000;
+  display: block;
+  float: left;
+  padding: 0 5px 0;
+}
+#big_box .big_box_cen .ui_page_bottom .ui_page_warp .ui_page_prev {
+  width: 54px;
+  height: 24px;
+  border: 1px solid #E7E7E7;
+}
+#big_box .big_box_cen .ui_page_bottom .ui_page_warp .ui_page_prev .ui_page_cur {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #E7E7E7;
+}
+#big_box .big_box_cen .ui_page_bottom .ui_page_warp .ui_page_prev .ui_page {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #E7E7E7;
+}
+#big_box .big_box_cen .ui_page_bottom .ui_page_warp .ui_page_next {
+  display: block;
+  height: 24px;
+  width: 54px;
+  border: 1px solid #E7E7E7;
 }
 
 /*# sourceMappingURL=details.css.map */
