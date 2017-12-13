@@ -39,6 +39,31 @@ $(function(){
 		$(this).children("img").hide();
 		$(this).children("a").css({"color":"black"});
 	})
+
+/*******		二级菜单  		 *******/
+	$(".navLi").mouseenter(function(){
+		$(this).find(".nav_a").css({"color":"red"})
+		$(this).find(".pop_up_menu").show();
+	})
+	$(".navLi").mouseleave(function(){
+		$(this).find(".nav_a").css({"color":"#fff"})
+		$(this).find(".pop_up_menu").hide();
+	})
+
+
+//	$(".navLi").on("mouseenter","a",function(){
+//		$(this).children(0).css({"color":"red"})
+//		alert()
+//	})
+
+
+
+
+
+
+
+
+
 })
 
 /*******		今日上新		*******/
